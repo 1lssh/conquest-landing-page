@@ -1,0 +1,34 @@
+.popular-models {
+	margin-bottom: 86px;
+
+	&__title {
+		text-align: center;
+	}
+
+	&__all {
+		text-align: right;
+		padding-bottom: 11px;
+		margin-bottom: 25px;
+		position: relative;
+		font-family: 'Roboto';
+		font-style: normal;
+		font-weight: 500;
+		font-size: 16px;
+		line-height: 19px;
+		color: #444240;
+
+		&::after {
+			content: '';
+			position: absolute;
+			width: 100px;
+			height: 1px;
+			background-color: #C4C0B6;
+			bottom: 0;
+			right: 0;
+		}
+	}
+
+	&__items {
+		display: flex;
+	}
+}

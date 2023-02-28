@@ -1,0 +1,125 @@
+.catalog {
+	background-color: #FDFDFB;
+	margin-bottom: 76px;
+
+	&__collection {
+		margin-right: 55px;
+	}
+
+	&__wrapper {
+		height: 768px;
+		background-image: url(../source/elipse_main.png);
+		background-position: center;
+		display: flex;
+		align-items: center;
+	}
+
+	&__title {
+		padding-left: 65px;
+		font-family: 'Playfair Display';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 45px;
+		line-height: 60px;
+		margin-bottom: 16px;
+		color: #1B1A17;
+		position: relative;
+
+		&::after {
+			content: '';
+			width: 50px;
+			height: 1px;
+			position: absolute;
+			background-color: #1B1A17;
+			left: 0;
+			top: 55%;
+		}
+	}
+
+	&__subtitle {
+		margin: 0px 0px 39px 65px;
+	}
+
+	&__description {
+		margin-left: 65px;
+		max-width: 258px;
+		font-family: 'Roboto';
+		font-style: normal;
+		font-weight: 300;
+		font-size: 14px;
+		line-height: 21px;
+		margin-bottom: 64px;
+		color: rgba(27, 26, 23, 0.82);
+	}
+
+	&__button {
+		margin-left: 65px;
+		font-family: 'Roboto';
+		padding: 26px 38px;
+		background: #444240;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 12px;
+		line-height: 14px;
+		letter-spacing: 0.05em;
+		text-transform: uppercase;
+
+		color: #FFFFFF;
+	}
+
+	&__price {
+		align-self: flex-start;
+		font-family: 'Prata';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 22px;
+		position: relative;
+		color: #1B1A17;
+		margin: 138px -88px 0px 0px;
+		padding-right: 88px;
+
+		&::before {
+			content: '';
+			width: 50px;
+			height: 1px;
+			position: absolute;
+			background-color: #1B1A17;
+			right: 0;
+			top: 10px;
+		}
+
+		&::after {
+			content: '';
+			position: absolute;
+			width: 10px;
+			height: 13px;
+			top: 3px;
+			right: 70px;
+			background-image: url(../source/ruble.svg);
+		}
+	}
+
+	&__size {
+		align-self: flex-end;
+		margin: 0px 0px 116px -100px;
+		padding-left: 65px;
+		font-family: 'Prata';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 22px;
+		color: #1B1A17;
+		position: relative;
+
+		&::after {
+			content: '';
+			width: 50px;
+			height: 1px;
+			position: absolute;
+			background-color: #1B1A17;
+			left: 0;
+			top: 55%;
+		}
+	}
+}

@@ -1,0 +1,53 @@
+.banner {
+	background: url(../source/background_banner_1.png) no-repeat left, url(../source/lines_banner.png) no-repeat right, #FDFDFB;
+	display: flex;
+	height: 519px;
+	align-items: center;
+	margin-bottom: 80px;
+
+	&__wrapper {
+		max-width: 1000px;
+		margin: 0 auto;
+
+
+	}
+
+	&__main {
+		display: flex;
+		align-items: center;
+		margin-bottom: 22px;
+	}
+
+	&__image {
+		margin-right: 70px;
+	}
+
+	&__title {
+		margin-bottom: 38px;
+	}
+
+	&__subtitle {
+		font-family: 'Roboto';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 150%;
+		color: #444240;
+		margin-bottom: 45px;
+	}
+
+	&__button {
+		padding: 26px 38px;
+		background-color: #D4B098;
+		border: none;
+		font-family: 'Roboto';
+		font-style: normal;
+		font-weight: 500;
+		font-size: 12px;
+		line-height: 14px;
+		letter-spacing: 0.05em;
+		color: #FFFFFF;
+	}
+
+
+}
